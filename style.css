@@ -10,13 +10,13 @@ body {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
-    box-shadow: 8px 8px 10px 3px darkorange ;
+    box-shadow: 8px 8px 10px 3px palegoldenrod ;
     width: 16%;
     text-shadow: 
-    1px 1px 0px black,
-    -1px 1px 0px black,
-     1px -1px 0px black,
-    -1px -1px 0px black;
+    1px 1px 0px cornsilk,
+    -1px 1px 0px cornsilk,
+     1px -1px 0px cornslik,
+    -1px -1px 0px cornsilk;
 
 
 }
@@ -27,7 +27,7 @@ ul{
 }
 
 body > header{
-    background-color: orange;
+    background-color: cornflowerblue;
     color: white;
     display: flex;
     height: 12vh;
@@ -81,7 +81,7 @@ h2{
 }
 
 body > footer{
-    background-color: orange;
+    background-color: pink;
     display: flex;
 }
 

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded" , () => {
 const images = document.querySelectorAll("img");
 
 for(const image of images){
-   fetch("https://api.thecatapi.com/v1/images/search?limit=10")
+   fetch("/api/cats?tags=tag1,tag2&skip=0&limit=10")
    .then(response => response.json())
    .then(data => {
     image.src = data.message
